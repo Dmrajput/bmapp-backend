@@ -3,7 +3,6 @@ import rateLimit from "express-rate-limit";
 import {
     googleAuth,
     login,
-    refreshToken,
     register,
 } from "../controllers/auth.controller.js";
 
@@ -26,8 +25,5 @@ router.post("/login", login);
 
 // POST /api/auth/google
 router.post("/google", googleAuth);
-
-// POST /api/auth/refresh
-router.post("/refresh", refreshToken);
 
 export default router;
