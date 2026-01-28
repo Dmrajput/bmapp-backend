@@ -1,10 +1,6 @@
 import express from "express";
 import rateLimit from "express-rate-limit";
-import {
-    googleAuth,
-    login,
-    register,
-} from "../controllers/auth.controller.js";
+import { googleAuth, login, register } from "../controllers/auth.controller.js";
 
 const router = express.Router();
 

@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "06aaaca0-7960-46fe-8aeb-e4df019d2703"
+      }
+    },
+    "android": {
+      "package": "com.divyaraj_padhiyar.musicapibackend"
+    }
+  }
+}
